@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hidalgo, Abogados. Asesoría y representación jurídica con 24 años de experiencia.">
+  <title>Hidalgo, Abogados | Despacho Jurídico</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="logo-link" href="#inicio">
+      <img src="logo.png" alt="Hidalgo, Abogados">
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+    <nav>
+      <a class="active" href="#inicio">INICIO</a>
+      <a href="#nosotros">NOSOTROS</a>
+      <a href="#areas">ÁREAS DE PRÁCTICA</a>
+      <a href="#servicios">SERVICIOS</a>
+      <a href="#contacto">CONTACTO</a>
+      <a class="appointment" href="https://wa.me/525530814133" target="_blank" rel="noopener">▣ &nbsp; AGENDA TU CITA</a>
+    </nav>
+  </div>
+</header>
+
+<main id="inicio">
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-grid">
+      <div class="hero-brand">
+        <div class="monogram">H<span>H</span></div>
+        <div class="hero-name">HIDALGO,</div>
+        <div class="hero-abogados">ABOGADOS</div>
+        <div class="hero-motto">EXPERIENCIA &nbsp;•&nbsp; COMPROMISO &nbsp;•&nbsp; RESULTADOS</div>
+      </div>
+
+      <div class="hero-message">
+        <div class="gold-rule"></div>
+        <h1>DEFENDEMOS TUS DERECHOS,<br><em>PROTEGEMOS TU TRANQUILIDAD.</em></h1>
+        <p>Brindamos asesoría y representación jurídica con ética, profesionalismo y eficiencia para proteger lo que más te importa.</p>
+        <div class="experience">
+          <strong>24</strong>
+          <span><b>AÑOS</b><br>DE EXPERIENCIA<br>DEFENDIENDO LO<br>QUE MÁS IMPORTA</span>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <img src="justicia-hero.jpg" alt="Representación de la justicia">
+        <div class="whatsapp-box">
+          <strong>◔ &nbsp; 55 3081 4133</strong>
+          <span>WhatsApp</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pillars">
+    <div class="container pillars-grid">
+      <div class="pillar"><span>⚖</span><div><b>EXPERIENCIA</b><small>24 años de experiencia nos respaldan.</small></div></div>
+      <div class="pillar"><span>♟</span><div><b>ATENCIÓN PERSONALIZADA</b><small>Cada caso es único, cada cliente es importante.</small></div></div>
+      <div class="pillar"><span>⬟</span><div><b>ESTRATEGIAS EFECTIVAS</b><small>Análisis profundo y soluciones jurídicas a tu medida.</small></div></div>
+      <div class="pillar"><span>♙</span><div><b>CONFIDENCIALIDAD</b><small>Manejamos tu información con absoluta discreción.</small></div></div>
+    </div>
+  </section>
+
+  <section class="lower" id="nosotros">
+    <div class="about">
+      <span class="section-title gold">NOSOTROS</span>
+      <div class="ornament">◆</div>
+      <p>En Hidalgo, Abogados ofrecemos asesoría y representación jurídica integral con ética, profesionalismo y eficiencia. Nuestro compromiso es brindar soluciones legales efectivas y proteger los derechos e intereses de nuestros clientes.</p>
+      <a class="outline-btn" href="#contacto">♙ &nbsp; CONOCE MÁS</a>
+    </div>
+
+    <div class="areas" id="areas">
+      <span class="section-title">ÁREAS DE PRÁCTICA</span>
+      <div class="ornament">◆</div>
+      <div class="areas-list">
+        <div><span>▥</span>Derecho Civil</div>
+        <div><span>♟</span>Derecho Familiar</div>
+        <div><span>▣</span>Derecho Mercantil</div>
+        <div><span>⚒</span>Ejecuciones y vías<br>de apremio</div>
+        <div><span>⚖</span>Juicios de Amparo</div>
+      </div>
+      <div class="locations">◆ &nbsp; ATENDEMOS EN &nbsp; <b>CIUDAD DE MÉXICO Y TOLUCA</b></div>
+    </div>
+
+    <div class="contact" id="contacto">
+      <span class="section-title">CONTACTO</span>
+      <div class="ornament">◆</div>
+      <div class="contact-list">
+        <div><span>◔</span><a href="https://wa.me/525530814133" target="_blank" rel="noopener">55 3081 4133</a></div>
+        <div><span>✉</span><a href="mailto:vic_hgo24@hotmail.com">vic_hgo24@hotmail.com</a></div>
+        <div><span>✉</span><a href="mailto:victorhidalgohernandez37@gmail.com">victorhidalgohernandez37@gmail.com</a></div>
+        <div><span>●</span>Ciudad de México y Toluca</div>
+      </div>
+      <a class="whatsapp-btn" href="https://wa.me/525530814133" target="_blank" rel="noopener">◔ &nbsp; ESCRÍBENOS POR WHATSAPP</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">Hidalgo, Abogados &nbsp;© 2026 &nbsp;|&nbsp; Todos los derechos reservados.</div>
+</footer>
+
+<script>
+const toggle = document.querySelector('.menu-toggle');
+const nav = document.querySelector('.site-header nav');
+toggle.addEventListener('click', () => nav.classList.toggle('open'));
+nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
+</script>
+
+</body>
+</html>
