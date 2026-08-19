@@ -17,7 +17,7 @@ a{text-decoration:none;color:inherit}
 
 .site-header{height:104px;background:var(--navy);color:#fff;border-bottom:1px solid rgba(224,185,108,.35);position:relative;z-index:10}
 .nav{height:100%;display:flex;align-items:center;justify-content:space-between;gap:30px}
-.logo-link img{width:390px;height:94px;object-fit:contain;object-position:left center;mix-blend-mode:screen}
+.Emblema Legal Dorado con Búho y VH-link img{width:390px;height:94px;object-fit:contain;object-position:left center;mix-blend-mode:screen}
 nav{display:flex;align-items:center;gap:31px;font-size:14px}
 nav a{padding:35px 0 28px;position:relative;white-space:nowrap}
 nav a.active:after{content:"";position:absolute;left:0;right:0;bottom:18px;height:2px;background:var(--gold)}
